@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend-api
-        image: FinalProjectVM.azurecr.io/FinalProjectVM:VERSION
+        image: acrvish.azurecr.io/acrvish:VERSION
         imagePullPolicy: Always
         env:
           - name: DB_CONN_STR
